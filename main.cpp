@@ -1,12 +1,12 @@
-#include <iostream>
+#include <cstdio>
+#include <cstdlib>
 
 int main(int argc, char *argv[])
 {
-    using namespace std;
     if (argc == 1)
     {
-        cout << "Expecting one or more args for inches" << endl;
-        cout << "Example: mg_intomm 0.005 0.01 0.02" << endl;
+        puts("Expecting one or more args for inches");
+        puts("Example: mg_intomm 0.005 0.01 0.02");
     }
     if (argc > 1)
     {
